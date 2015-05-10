@@ -1,0 +1,293 @@
+
+.btn-load {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	display: none;
+}
+.btn-load .hero {
+	width:282px;
+	height:70px;
+	background:url(../img/btn-282a-h.png) no-repeat 0 0;
+}
+.btn-load .sponsors {
+	width: 160px;
+	height: 44px;
+	background:url(../img/btn-160-h.png) no-repeat 0 0;
+}
+#hero {
+	position: relative;
+	display:block;
+	width: 100%;
+	max-width:1920px;
+	height:500px;
+	overflow:hidden;
+	margin:5px auto -35px;
+}
+.royalSlider#hero-gallery {
+	height: 508px !important;
+	max-width: 1240px;
+	margin:0 auto;
+}
+.visibleNearby {
+  width: 100%;
+  background: none;
+  color: #FFF;
+  padding-top:0px;
+	padding-bottom:0px;
+}
+.visibleNearby .rsGCaption {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 12px 0 16px;
+  background:none;
+  width: 100%;
+  position: static;
+  float: left;
+  left: auto;
+  bottom: auto;
+  text-align: center;
+	display:none;
+}
+.visibleNearby .rsGCaption span {
+  display: block;
+  clear: both;
+  color: #bbb;
+  font-size: 14px;
+  line-height: 22px;
+}
+.rsVisibleNearbyWrap {
+	overflow: visible;
+}
+.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {
+	background: none;
+}
+/* Scaling transforms */
+/*.visibleNearby .rsSlide img {
+  opacity: 0.75;
+ 	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+  -webkit-transform: scale(0.75);  
+  -moz-transform: scale(0.75); 
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.visibleNearby .rsActiveSlide img {
+  opacity: 1;
+  -webkit-transform: scale(1);  
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}*/
+
+/*------ Custom slides ------*/
+.visibleNearby .rsSlide .rsScale {
+	opacity: 0.75;
+ 	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+  -webkit-transform: scale(0.75);  
+  -moz-transform: scale(0.75); 
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.visibleNearby .rsActiveSlide .rsScale {
+  opacity: 1;
+  -webkit-transform: scale(1);  
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.visibleNearby .rsSlide .video {
+	position:absolute;
+	top: 40px;
+	right: 55px;
+	display: block;
+	width: 599px;
+	height: 339px;
+	border: 2px #009eff solid;
+	opacity: 0.75;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+  -webkit-transform: scale(0.75);  
+  -moz-transform: scale(0.75); 
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.visibleNearby .rsActiveSlide .video {
+	position:absolute;
+	top: 40px;
+	right: 55px;
+	display: block;
+	width: 599px;
+	height: 339px;
+	border: 2px #009eff solid;
+	opacity: 1;
+
+  -webkit-transform: scale(1);  
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.visibleNearby .rsSlide .video .flare {
+	position: absolute;
+	top: -51px;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 99px;
+	background: url(../img/hr-760.png) no-repeat -50px 0;
+	z-index:51;
+	-webkit-backface-visibility: hidden;
+}
+.rsDefault .rsPlayBtn {
+	z-index: 500;
+}
+.visibleNearby .rsSlide .hero-txt {
+	position:absolute;
+	top:40px;
+	left:55px;
+}
+.visibleNearby .rsSlide a.btn-hero {
+	position:absolute;
+	top:325px;
+	left:55px;
+	display:block;
+	width:282px;
+	height:70px;
+	background:url(../img/btn-282a.png) no-repeat 0 0;
+	color: #fff;
+	font: 30px/61px 'Bebas_Neue', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #333;
+	padding: 0 0 0 26px;	
+}
+.visibleNearby .rsSlide a.btn-hero:hover {background:url(../img/btn-282a-h.png) no-repeat 0 0;}
+.visibleNearby .rsSlide a.btn-hero.first {top:360px;}
+.visibleNearby .rsSlide .slide {
+	position:absolute;
+	top: 0;
+	right: 50px;
+	opacity: 0.75;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+  -webkit-transform: scale(0.75);  
+  -moz-transform: scale(0.75); 
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.visibleNearby .rsActiveSlide .slide {
+	position:absolute;
+	top: 0;
+	right: 50px;
+	opacity: 1;
+
+  -webkit-transform: scale(1);  
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.rsDefault .rsArrow {
+	width:82px;
+}
+.rsDefault.rsHor .rsArrowLeft {
+	left:-22px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.rsDefault.rsHor .rsArrowRight {
+	right:-22px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.rsDefault.rsHor .rsArrowLeft:hover {left:-32px;}
+.rsDefault.rsHor .rsArrowRight:hover {right:-32px;}
+.rsDefault .rsArrowIcn {
+	width: 82px;
+	height: 108px;
+	top: 50%;
+	left: 50%;
+	margin-top: -84px;
+	margin-left: -41px;
+	position: absolute;
+	cursor: pointer;
+	background: none;
+	background-color: transparent !important;
+	border-radius: 0px;
+}
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn {
+	background:url(../img/btn-hero-next.png) no-repeat 0 0;
+}
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn {
+	background:url(../img/btn-hero-prev.png) no-repeat 0 0;
+}
+.rsDefault .rsThumbsHor {
+	margin-top: 16px;
+}
+.rsDefault .rsThumb {
+	width: 134px;
+	height: 72px;
+	border: 2px #000 solid;
+}
+.rsDefault .rsThumb.rsNavSelected {
+	background: #000;
+	border: 2px #00a6ff solid;
+}
+.rsDefault .rsThumb.rsNavSelected img {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+.rsDefault .rsThumbsArrow {
+	height: 100%;
+	width: 29px;
+}
+.rsDefault .rsThumbsArrowIcn {
+	width: 21px;
+	height: 41px;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -10px;
+	position: absolute;
+	cursor: pointer;
+	background: none;
+}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {
+	background: url(../img/btn-t-prev.png) no-repeat;
+	background-position: 0 0;
+}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {
+	background: url(../img/btn-t-next.png) no-repeat;
+	background-position: 0 0;
+}
+
